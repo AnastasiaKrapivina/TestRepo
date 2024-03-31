@@ -31,7 +31,7 @@ public class Authorization {
 
     // Подождать загрузку:
     public void waitForLoading() {
-        long endTime = (System.currentTimeMillis() + 8000);
+        long endTime = (System.currentTimeMillis() + 20000);
         while (System.currentTimeMillis() < endTime) ;
     }
 

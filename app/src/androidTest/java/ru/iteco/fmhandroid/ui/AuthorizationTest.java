@@ -10,14 +10,15 @@ import org.junit.Rule;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
+import io.qameta.allure.android.runners.AllureAndroidJUnit4;
 import io.qameta.allure.kotlin.Epic;
 import io.qameta.allure.kotlin.junit4.DisplayName;
 import page.Authorization;
 import page.Matches;
 
 @LargeTest
-@RunWith(AndroidJUnit4.class)
-//@RunWith(AllureAndroidJUnit4.class)
+//@RunWith(AndroidJUnit4.class)
+@RunWith(AllureAndroidJUnit4.class)
 @Epic("Авторизация пользователя")
 
 public class AuthorizationTest {
